@@ -15,7 +15,7 @@ In order to use this data you must:
 ##### Files Names
 Each of the following variables contains the file name of a particular piece of the overall dataset.
 
-'''R
+```
 xTrainName # File name of the training data (X_train.txt)
 yTrainName # File name of the training activity data (Y_train.txt)
 
@@ -27,18 +27,18 @@ subjectTestName  # File name of the test subject IDs (subject_test.txt)
 
 activityName # File name of the activity list (activity_labels.txt)
 featureName  # File name of the feature list (features.txt)
-'''
+```
 
 ##### Indices
 Each of the following contains important indices in the dataset
 
-'''R
+```
 featureColumns # Contains the column index for each mean and std measurement
-'''
+```
 
 ##### Data Containers
 Each of the following holds on to data gathered from the data files
-'''R
+```R
 featureLabels # Contains the strings for each feature name (tBodyAcc.mean.X,...)
 
 trainX # Contains all of the training data for each mean and std measurement
@@ -55,7 +55,7 @@ subjectTestLabels  # Contains the subject IDs for the test data
 
 rawData  # Contains the 'raw' data. This matrix is a combination of subject, activity, and trainX/testX data and labels
 tidyData # Contains the average 'mean and std' for each activity for each subject. This variable is also outputted to a file entitled "TidyData.txt".
-'''
+```
 
 
 
