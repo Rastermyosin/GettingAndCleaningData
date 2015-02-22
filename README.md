@@ -10,6 +10,8 @@ In order to use this data you must:
 * Have the data.table and dpyr packages installed
 * When you source("run_analysis.R") the script will auto-run
 
+For an explanation of the features, how the features were collected/calculated, and feature names please see the relevant files included with the Samsung data.
+
 #### Variables
 
 ##### Files Names
