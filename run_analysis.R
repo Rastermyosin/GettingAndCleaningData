@@ -38,7 +38,7 @@ featureName = "features.txt"           # Feature Label Names
 
 # Indicies for all mean and std values in dataset
 featureColumns = as.numeric(c(1:6, 41:46, 81:86, 121:126, 161:166, 201:202, 214:215, 227:228, 240:241,
-                   266:271, 345:350, 424:429, 503:504, 516:517, 529:530, 524:543))              
+                   266:271, 345:350, 424:429, 503:504, 516:517, 529:530, 542:543))              
                   
 # Load in feature labels, then alter the feature names to be easier to read
 featureLabels = data.table(read.table(featureName, stringsAsFactors = FALSE))             
